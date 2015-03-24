@@ -1,0 +1,224 @@
+/*  Typo from httrack
+----------------------------------------------- */
+
+a:link, a:visited
+{
+    text-decoration: underline;
+    color:#EC4413;
+}
+a:active { text-decoration: underline; }
+a:hover { text-decoration:none; }
+
+
+h1 { font:bold 18px/140% "Trebuchet MS", Verdana, sans-serif; }
+h2 { font:bold 14px/140% "Trebuchet MS", Verdana, sans-serif; }
+h3 { font:bold 12px/140% "Trebuchet MS", Verdana, sans-serif; }
+
+p {	font: 11px/140% Verdana, Geneva, Arial, Helvetica, sans-serif;}
+
+/*  Layout
+----------------------------------------------- */
+
+body {
+    /* need space between ...00) #333333 in line below, else IE8 etc fail to do transparency, its also correct CSS syntax, paulito */
+    background: url(http://u.jimdo.com/www65/o/s2d1a765cf8116d7b/userlayout/img/bg-body.jpg?t=1385322400) #333333 no-repeat; 
+	/*background: url(bg_body.jpg)#333333 no-repeat;*/
+	/*background:url(file:///C|/Users/Entenmann/Desktop/Sattal%20lake%20surface,by%20dave-x.jpg)  #333333 no-repeat;*/
+	background-position:center;
+	background-attachment:fixed;
+    padding:35px 0 0 0;
+    margin:0;
+    font:11px/140% Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+#container
+{
+
+    /* Fallback for web browsers that doesn't support RGBa so at least text shows up on dark background, paulito*/
+    background: rgb(0, 0, 0) transparent;
+	
+    /*background: rgba(0, 0, 0, 0.6); */
+    /* For IE 5.5 - 7 uses ie filter gradient hack to get semi-transparent since ie5-ie8 dont support RGBa*/
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#33BECCFF, endColorstr=#33BECCFF);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#33BECCFF, endColorstr=#33BECCFF)";
+
+    margin:0 auto;
+    width:780px;
+	    /*regular  RGBa with 0.2opacity */
+	background-color:rgba(190,204,255,0.2); 
+	border-right: 1px rgba(255,255,255,1) solid;
+	border-left: 1px rgba(255,255,255,1) solid;
+}
+
+#header { padding-top:17px;}
+
+#header_slogan {
+
+    background-position:center;
+	margin:20px auto;
+	padding-left:8px;
+}
+
+#header_yantra
+{
+	margin:0 auto;
+	/*width:740px;*/
+	border-top:2px rgba(255,255,255,1) solid;
+	border-bottom:2px rgba(255,255,255,1) solid;
+	/*box-shadow:0px 1px 0 rgba(255,255,255,0.5), 0px -1px 0px rgba(0,0,0,0.3);*/
+	/*border-radius:4px;*/
+}
+
+#header h1,
+#header a
+{
+    padding:0;
+    font-family:"Helvetica","Lucida Sans Unicode",Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size:30px;
+    font-weight:normal;
+    text-decoration:none;
+    line-height:1.3em;
+    color:#666666;
+    text-align:right;
+}
+
+#header a:hover{ text-decoration:none;  }
+
+
+#navigation
+{
+    float:left;
+    width:100%;
+    padding:17px;
+
+}
+/*
+#sidebar{ 
+	float:right;
+	height:200px;
+	width:160px;
+	/*background-image:url(http://u.jimdo.com/www65/o/s2d1a765cf8116d7b/userlayout/img/subteaser-bg.png?t=1385234176);*/
+	border:1px rgba(255,255,255,0.9) solid;
+	border-radius:4px;
+	/*box-shadow: 0 3px 5px rgba(0, 0, 0, 0.4);*/
+	margin-top:30px;
+	margin-right:17px;
+	padding: 17px;
+
+ }
+ */
+ #sidebar p, #sidebar h3{ color:white; }
+
+#content
+{ 
+	width:530px;
+        padding: 17px;
+	margin: 0 auto;
+
+}
+
+/*#content p, #content h1{ color: #433623; }*/
+#content p, #content h1{ color: white; }
+#content p {font-size: 15px; font-family: Verdana, Geneva, sans-serif;}
+/*#content_area { background-image: url(http://u.jimdo.com/www65/o/s2d1a765cf8116d7b/userlayout/img/subteaser-bg.png?t=1385234176); padding: 15px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4); border:1px rgba(255,255,255,0.9) solid; border-radius:4px; }*/
+
+.cc-m-form-view-label-text{color:white;}
+.cc-m-form-checkable-horizontal{color:white;}
+
+
+
+#fbooklikeright
+{
+text-align: right
+}
+
+#footer
+{
+    clear:both;
+	background-image:url(http://u.jimdo.com/www65/o/s2d1a765cf8116d7b/userlayout/img/bg-footer.png?t=1385234149);
+	background-position: center;
+    margin-top:10px;
+    height:110px;
+}
+
+#contentfooter a{ color: white !important;
+}
+
+/*
+#contentfooter 
+{
+position: absolute;
+left: -10000px;
+}
+hide all of jimdo footer text */
+
+/* hide login use web inspector to manually edit position to login again */
+
+/*
+#login
+{
+position: absolute;
+left: -10000px;
+}
+*/
+
+#footer .gutter 
+{
+    height:30px;
+    padding:35px 15px 0 15px;
+}
+
+#google_ads_div_en_US_Footer_Ad_ad_container {
+	position: absolute;
+	left: -10000px;
+}
+
+/*  Navigation
+----------------------------------------------- */
+
+ul.mainNav1,
+ul.mainNav2
+{
+    margin:0;
+    padding: 0;
+}
+
+
+ul.mainNav1 li,
+ul.mainNav2 li
+{
+    float: left;
+	display: inline;
+    margin: 0;	
+    padding: 0 1px;
+}
+
+
+ul.mainNav1 li a,
+ul.mainNav2 li a
+{
+    /*font:normal 11px/140% Verdana, Geneva, Arial, Helvetica, sans-serif;*/
+    font: 15px/150% Arial,Helvetica,sans-serif;
+	text-decoration: none;
+    display: block;
+    color:#e9e9e9;
+    border-bottom:3px solid #333333;
+}
+
+
+ul.mainNav1 li a { padding:10px; }
+ul.mainNav2 li a { padding:10px; }
+ul.mainNav3 li a { padding:10px; }
+
+
+ul.mainNav1 a:hover { border-bottom: 3px solid #3333cc; }
+
+ul.mainNav1 a:active { border-bottom: 3px solid #ff9900; }
+
+ul.mainNav1 a.current 
+{ 
+	font-weight: bold;
+	border-bottom: 3px solid #3333cc; 
+}; 
+}
