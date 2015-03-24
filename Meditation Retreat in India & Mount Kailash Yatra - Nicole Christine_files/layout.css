@@ -21,7 +21,7 @@ p {	font: 11px/140% Verdana, Geneva, Arial, Helvetica, sans-serif;}
 
 body {
     /* need space between ...00) #333333 in line below, else IE8 etc fail to do transparency, its also correct CSS syntax, paulito */
-    background: url(http://nicolechristine.github.io/Meditation Retreat in India & Mount Kailash Yatra - Nicole Christine_files/bg-body.jpg) #333333 no-repeat; 
+    background: url(bg-body.jpg) #333333 no-repeat; 
 	/*background: url(bg_body.jpg)#333333 no-repeat;*/
 	/*background:url(file:///C|/Users/Entenmann/Desktop/Sattal%20lake%20surface,by%20dave-x.jpg)  #333333 no-repeat;*/
 	background-position:center;
