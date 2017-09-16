@@ -1,1 +1,0 @@
-(function(b){b.modules.textWithImage=function(c){var a;c.data&&(a=c.data);if(!b.jimdoData.isMobile()){var d=a&&a.pinterest&&"1"==a.pinterest;d&&b("#cc-m-textwithimage-image-"+a.id).pinterest();c.selector&&b(c.selector).lightbox({pinterest:d})}}})(require("jquery"));
