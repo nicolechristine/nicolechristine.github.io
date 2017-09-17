@@ -21,7 +21,7 @@ p {	font: 11px/140% Verdana, Geneva, Arial, Helvetica, sans-serif;}
 
 body {
     /* need space between ...00) #333333 in line below, else IE8 etc fail to do transparency, its also correct CSS syntax, paulito */
-    background: url(bg-body.jpg?t=1385322400) #333333 repeat; 
+    background: url(bg-body.jpg?t=1385322400) #333333 no-repeat; 
 	/*background: url(bg_body.jpg)#333333 no-repeat;*/
 	/*background:url(file:///C|/Users/Entenmann/Desktop/Sattal%20lake%20surface,by%20dave-x.jpg)  #333333 no-repeat;*/
 	background-position:center;
@@ -36,7 +36,6 @@ body {
 
     /* Fallback for web browsers that doesn't support RGBa so at least text shows up on dark background, paulito*/
     background: rgb(0, 0, 0) transparent;
-	
     /*background: rgba(0, 0, 0, 0.6); */
     /* For IE 5.5 - 7 uses ie filter gradient hack to get semi-transparent since ie5-ie8 dont support RGBa*/
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#33BECCFF, endColorstr=#33BECCFF);
@@ -46,7 +45,8 @@ body {
     margin:0 auto;
     width:780px;
 	    /*regular  RGBa with 0.2opacity */
-	background-color:rgba(190,204,255,0.2); 
+/*	background-color:rgba(190,204,255,0.2); */
+	background-color:rgba(0,0,0,0.3);
 	border-right: 1px rgba(255,255,255,1) solid;
 	border-left: 1px rgba(255,255,255,1) solid;
 }
