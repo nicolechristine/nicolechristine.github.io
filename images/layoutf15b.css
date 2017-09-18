@@ -26,7 +26,7 @@ body {
 	/*background: url(bg_body.jpg)#333333 no-repeat;*/
 	/*background:url(file:///C|/Users/Entenmann/Desktop/Sattal%20lake%20surface,by%20dave-x.jpg)  #333333 no-repeat;*/
 	background-position: top center;
-	background-size: auto 100%;
+	/*background-size: auto 100%;*/
 	background-attachment:local;
     padding:35px 0 0 0;
     margin:0;
