@@ -1,0 +1,12 @@
+[user]
+	name = Nicole Christine
+	email = nicolechristineevents@gmail.com
+	signingkey = 
+
+[github]
+	user = nicolechristineevents@gmail.com
+	password = Geeta1hi
+
+[commit]
+        gpgsign = false
+
